@@ -1,4 +1,4 @@
-# photobook
+# Photobook
 A framework to create photobooks
 
 # Installation
