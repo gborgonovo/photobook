@@ -18,7 +18,7 @@ Download Smarty from https://www.smarty.net/ and put it in <your-folder>/include
 
 Create a YAML file in your root (keep the extension yaml) and enjoy this piece of code.
 
-# Configuration
+## Configuration
 In the YAML file there are all the input for the system to prepare your photobook. See the photobook.yaml file as example.
 - `title` : It's just a tag;
 - `format` : the format of your page see [cognitom/paper-css](https://github.com/cognitom/paper-css/), available page sizes are:
@@ -47,7 +47,7 @@ In the YAML file there are all the input for the system to prepare your photoboo
 - `hpan` : horizontal position of the picture inside the frame;
 - `vpan` : vertical position of the picture inside the frame;
 
-# Use
+## Use
 Call the web page to see your progressing work.
 
 `http://www.mydomain.com/photobook/index.php?pb=<your-photobook>&p=0-9`
@@ -56,7 +56,7 @@ It gets 2 parameters:
 - `pb=` : parameter is mandatory to call your YAML configuration file (it is the YAML filename with no extention);
 - `p=` : optional, it is useful when the number of pages and pictures increase to limit the amount of data. It starts from 0 and it gets page range as a printer so you can do for example: `0-3,5`
 
-# Make the PDF
+## Make the PDF
 Now the interesting part.
 
 You can print the web page in several ways:
@@ -68,5 +68,5 @@ But my best choice is using [Puppeteer](https://github.com/GoogleChrome/puppetee
 
 printpdf.js file is an example file to create the pdf this way.
 
-# Warning
+## Warning
 I'm not a professional developer, and this tool is meant for personal use, so it is imperfect, buggy and so on. Use it without any warrenty. Any contribute is welcome.
