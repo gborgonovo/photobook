@@ -27,7 +27,7 @@ In the YAML file there are all the input for the system to prepare your photoboo
   - A3, A3 landscape
   - letter, letter landscape
   - legal, legal landscape
-- `format` : stylesheet for your project (in <your-folder>/css folder);
+- `stylesheet` : stylesheet for your project (in <your-folder>/css folder);
 - `dsphoto_url` : sometimes it is useful to have a short path to most frequently used folder ex. http://example.com/images/, photobook will use it to link images in `dsphoto` (see below);
 - `pages` : from here the list of pages;
 - `class` : a custom class
