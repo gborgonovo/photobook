@@ -69,4 +69,4 @@ But my best choice is using [Puppeteer](https://github.com/GoogleChrome/puppetee
 printpdf.js file is an example file to create the pdf this way.
 
 # Warning
-I'm not a professional developer, and this tool is meant for personal use, so it is imperfect, buggy and so on. Any contribute is welcome.
+I'm not a professional developer, and this tool is meant for personal use, so it is imperfect, buggy and so on. Use it without any warrenty. Any contribute is welcome.
