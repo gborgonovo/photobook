@@ -43,3 +43,8 @@ In the YAML file there are all the input for the system to prepare your photoboo
 - `hpan` : horizontal position of the picture inside the frame;
 - `vpan` : vertical position of the picture inside the frame;
 
+# Use
+Call the web page to see your progressing work.
+`http://www.mydomain.com/photobook/index.php?pb=<your-photobook>&p=0-9`
+- `pb=` : parameter is mandatory to call your YAML configuration file (it is the YAML filename with no extention);
+- `p=` : is useful when the number of pages and pictures increase to limit the amount of data.
