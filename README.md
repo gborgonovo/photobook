@@ -50,4 +50,4 @@ Call the web page to see your progressing work.
 
 It gets 2 parameters: 
 - `pb=` : parameter is mandatory to call your YAML configuration file (it is the YAML filename with no extention);
-- `p=` : optional, it is useful when the number of pages and pictures increase to limit the amount of data.
+- `p=` : optional, it is useful when the number of pages and pictures increase to limit the amount of data. It starts from 0 and it gets page range as a printer so you can do for example: `0-3,5`
