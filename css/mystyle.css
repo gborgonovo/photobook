@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lora');
+
+@page { size: 210mm 210mm } /* output size */
+	body.booklet .sheet { width: 210mm; height: 210mm } /* sheet size */
+@media print { body.receipt { width: 210mm } } /* fix for Chrome */
+
+body {
+   font-family: 'Gloria Hallelujah', cursive;
+   font-size: 16px;
+}
+
+.picture {
+	position: absolute;
+	overflow:hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 1.5mm ;
+	image-orientation: from-image;
+}
+
+.picture img {
+	width: 100%;
+	margin-bottom: -2.5mm;
+}
+
+.free {
+	position: absolute;
+}
+
+.textbox {
+	position: absolute;
+}
+
+.pn {
+	position: absolute;
+	top: 19cm;
+}
+
+.dida {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, .7);
+	padding: 3mm;
+}
+
+.pari {
+	left: 2cm;
+}
+
+.dispari {
+	right: 2cm;
+}
+
+h1 {
+	font-size: 1.2cm;
+	text-shadow: 2px 2px rgba(255,255,255,0.5);
+}
+
+h2 {
+	font-size: 0.6cm;
+	text-shadow: 2px 2px rgba(255,255,255,0.5);
+}
+
+.nopictureframe {
+	position: absolute;
+	overflow:hidden;
+	box-shadow: none;
+	border-radius: 0 ;
+	image-orientation: from-image;
+}
+
+.newspaper {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+
+}
+
+.custompage {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+3,bee4f8+82,b1d8f5+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 3%, #bee4f8 82%, #b1d8f5 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 3%,#bee4f8 82%,#b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #ffffff 3%,#bee4f8 82%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b1d8f5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+}
