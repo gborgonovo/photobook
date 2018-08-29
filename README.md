@@ -10,6 +10,8 @@ Download Smarty from https://www.smarty.net/ and put it in <your-folder>/include
   
 [cognitom/paper-css](https://github.com/cognitom/paper-css/) is used from the cdnjs, so you get it without installation, but if you prefer to have everything on your server change files accordingly.
 
+[mustangostang/spyc](https://github.com/mustangostang/spyc) is used to manage YAML instead of php extension, so you should not have dependencies problems. Download it and put it in <your-folder>/include/spyc.
+
 Create a YAML file in your root (keep the extension yaml) and enjoy this piece of code.
 
 # Configuration
