@@ -51,3 +51,15 @@ Call the web page to see your progressing work.
 It gets 2 parameters: 
 - `pb=` : parameter is mandatory to call your YAML configuration file (it is the YAML filename with no extention);
 - `p=` : optional, it is useful when the number of pages and pictures increase to limit the amount of data. It starts from 0 and it gets page range as a printer so you can do for example: `0-3,5`
+
+# Make the PDF
+Now the interesting part.
+
+You can print the web page in several ways:
+- print from the browser, as usual;
+- use some shell command (for example [wkhtmltopdf](https://wkhtmltopdf.org/)
+- or other...
+
+But my best choice is using [Puppeteer](https://github.com/GoogleChrome/puppeteer), it takes a little bit to manage it, but it woth the time.
+
+printpdf.js file is an example file to create the pdf this way.
