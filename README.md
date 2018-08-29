@@ -5,7 +5,7 @@ For long time I wished to find a straightful way to create photobooks in pdf, bu
 
 This is the (work in progress) result of this job, it is not perfect, but it works very well for my. I hope it can be usefull for you too.
 
-# Installation
+## Installation
 The project is based on other projects: Smarty as template engine and cognitom/paper-css for the css formatting of pages; I also used spyc for YAML management.
 
 Copy all the files in your working folder.
