@@ -4,7 +4,7 @@
 	<title>{$title}</title>
 	<meta charset="UTF-8">
 	<!-- Page format: https://github.com/cognitom/paper-css -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.min.css">
 	<link rel="stylesheet" href="css/{$stylesheet|default:'style.css'}" type="text/css" />
 </head>
 <body class="{$format}">
