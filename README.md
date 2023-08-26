@@ -3,7 +3,7 @@ A framework to create photobooks.
 
 For long time I wished to find a straightful way to create photobooks in pdf, but I couldn't find an application to make it. Recently I came across with the great piece of code [cognitom/paper-css](https://github.com/cognitom/paper-css/) and I began to imagine a solution.
 
-This is the (work in progress) result of this job, it is not perfect, but it works very well for my. I hope it can be usefull for you too.
+This is the (work in progress) result of this job, it is not perfect, but it works very well for me. I hope it can be usefull for you too.
 
 ## Installation
 The project is based on other projects: Smarty as template engine and cognitom/paper-css for the css formatting of pages; I also used spyc for YAML management.
